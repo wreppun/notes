@@ -1,6 +1,7 @@
 # Running fish on osx 
 
 - install fish via homebrew
+- edit `/etc/shells` -- add the fish binary path
 - run `chsh` and edit the file to point to the fish binary 
 
 # Using solarized colors
