@@ -1,6 +1,8 @@
 set PATH /Users/wr/.local/bin $PATH
 set PATH /Users/wr/.yarn/bin $PATH
 
+set fish_key_bindings fish_vi_key_bindings
+
 # http://ethanschoonover.com/solarized#the-values
 
 # Use these settings if you've applied a Solarized theme to your terminal (for
