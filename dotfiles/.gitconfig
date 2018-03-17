@@ -13,4 +13,6 @@
   ks = log --graph --decorate --oneline
   ksa = log --graph --decorate --oneline --all
   k = !git --no-pager log --color --graph --decorate --pretty=format:\"%C(yellow)%h%Creset%C(auto)%d %s %Cblue<%an> %Cgreen(%cr)\" | emojify | less --RAW-CONTROL-CHARS
-  ka = log --graph --decorate --pretty=format:\"%C(yellow)%h%Creset%C(auto)%d %s %Cblue<%an> %Cgreen(%cr)\" --all
+  ka = !git --no-pager log --graph --decorate --pretty=format:\"%C(yellow)%h%Creset%C(auto)%d %s %Cblue<%an> %Cgreen(%cr)\" --all | emojify | less --RAW-CONTROL-CHARS
+[core]
+	autocrlf = input
